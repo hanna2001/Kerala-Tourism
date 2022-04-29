@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_{
+    height: 40vh;
+    /* background-color: blanchedalmond; */
+}
+
+.header_ .te_xt{
+    padding: 100px 50px;
+    height: 100%;
+    width: 60%;
+    /* background-color: rebeccapurple; */
+    
+    
+}
+
+.header_ .ima_ge{
+    height: 100%;
+    width: 40%;
+    padding-left: 40px;
+    /* background-image: url('images/home_img.png');
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* background-color: palevioletred; */
+    float: right;
+}
+
+.header_ .low_opac{
+    opacity: 0.3;
+    height: 100%;
+    width: 40%;
+    padding-left: 40px;
+    float: right;
+}
+
+
+
+
+.scre_en{
+    position: absolute;
+}
+
+.car_osal{
+   
+    margin: 50px;
+    margin-left: 75px;
+    width: 35%;
+    
+}
+/* 
+.blank_{
+  height: 20px;
+} */
+
+.district_cards{
+    position: relative;
+    height: 50vh;
+    width: 500px;
+    /* background-color: goldenrod; */
+    float: right;
+    padding-top: 40px;
+}
+.contain_er{
+    margin: 40px;
+    height: 40px;
+    width: 400px;
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+
+.scree_n{
+    padding: 50px;
+    margin-top: 70px;
+}
+
+.district, .place_cont{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+.district_img{
+    margin: 5px;
+    display: inline-block;
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.district .dis_name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.district:hover .dis_name {
+    opacity: 1;
+  }
+  
+.district:hover .district_img {
+    filter: blur(2px);
+  }
+
+/* change accc val */
+.place_cont{
+    padding-bottom: 5px;
+    height: 250px;
+    width: 270px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    box-shadow: rgba(23, 23, 26, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.loc_{
+    margin: 5px;
+    float: left;
+}
+
+.spo_t{
+    border-radius: 10px 10px 0 0 ;
+}
+
+.spot_desc,.d_name{
+    color: grey;
+}
+
